@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: rgba(255, 68, 0, 0.863);
+  text-align: center; }
+
+main {
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+  background-color: #252525;
+  padding: 20px; }
+  main h3 a {
+    color: orange;
+    text-decoration: none; }
+    main h3 a:hover {
+      color: black;
+      background-color: orange; }
+
+footer {
+  text-align: center;
+  background-color: #141414;
+  color: whitesmoke; }

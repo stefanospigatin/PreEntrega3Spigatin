@@ -19,6 +19,15 @@ main {
     main h3 a:hover {
       color: black;
       background-color: orange; }
+  main .marca {
+    width: 350px;
+    align-items: center; }
+  main .producto1 {
+    width: 150px; }
+  main .producto2 {
+    width: 75px; }
+  main .producto3 {
+    width: 100px; }
 
 footer {
   text-align: center;

@@ -1,0 +1,30 @@
+main{
+    font-size: 20px;
+    color: orange;
+    text-align: $centro;
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+    
+    h3 a{
+        color: orange;
+        text-decoration: none;
+
+        &:hover{
+            color: black;
+            background-color: orange;
+        }
+    }
+    .marca{
+        width: 350px;
+        align-items: $centro;
+    }
+    .producto1{
+        width: 150px;
+    }
+    .producto2{
+        width: 75px;
+    }
+    .producto3{
+        width: 100px;
+    }
+}

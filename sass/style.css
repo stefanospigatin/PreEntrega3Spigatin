@@ -28,14 +28,12 @@ main .marca {
   width: 350px;
   align-items: center;
 }
-main .producto1 {
-  width: 150px;
-}
-main .producto2 {
-  width: 75px;
-}
-main .producto3 {
-  width: 100px;
+main .row {
+  display: flex;
+  justify-items: stretch;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: space-around;
 }
 
 footer {

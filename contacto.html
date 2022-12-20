@@ -47,41 +47,37 @@
     </header>
     
     <main class="container">
-      <div class="row">
-        <section class="col-12">
+      <div class="rows">
           <form action="">
             <fieldset>
                     <legend>Dejanos tu consulta</legend>
-                    <div>
+                    <div class="col">
                         <label for="edad">¿Eres mayor?</label>
+                        <br>
                         <input type="radio" name="edad" value="si">Si
                         <input type="radio" name="edad" value="no">No
                     </div>
                     <br>
-                    <div>
-                        <label for="zona">¿De que zona sos?</label>
-                        <select name="zona" id="">
-                             <option value="sc">San Carlos</option>
-                             <option value="tyan">Tunuyan</option>
-                             <option value="tgto">Tupungato</option>
-                        </select>
-                    </div>
+                    <label for="zona">¿De que zona sos?</label>
+                    <select class="form-select" aria-label="zona">
+                      <option selected>Seleccionar...</option>
+                      <option value="1">San Carlos</option>
+                      <option value="2">Tunuyan</option>
+                      <option value="3">Tupungato</option>
+                    </select>
                     <br>
-                    <div>
-                        <label for="name">Nombre:</label>
-                        <input type="text" name="name" placeholder="Nombre">
+                    <div class="mb-3">
+                      <label for="nombre" class="form-label">Nombre:</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                     </div>
-                    <br>
-                    <div>
-                        <label for="surname">Apellido:</label>
-                        <input type="text" name="surname" placeholder="Apellido">
+                    <div class="mb-3">
+                      <label for="apellido" class="form-label">Apellido:</label>
+                      <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>                
                     </div>
-                    <br>
-                    <div>
-                        <label for="consulta">Consulta:</label>
-                        <div>
-                            <textarea name="consulta" rows="5"></textarea>
-                        </div>                                
+                    <div class="mb-3">
+                      <label for="consulta" class="form-label">Consulta:</label>
+                      <textarea class="form-control mx-auto" id="consulta" rows="3"></textarea>
                     </div>
                     <br>
                     <div>
@@ -89,7 +85,6 @@
                     </div>
             </fieldset>
           </form>
-        </section>
       </div>
         
     </main>

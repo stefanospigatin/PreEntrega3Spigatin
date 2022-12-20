@@ -30,6 +30,17 @@ main {
     align-content: space-around; }
 
 footer {
+  margin-bottom: 0%;
   text-align: center;
   background-color: #141414;
-  color: whitesmoke; }
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center; }
+  footer p {
+    margin: 0;
+    padding: 5px; }
+  footer a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px; }
